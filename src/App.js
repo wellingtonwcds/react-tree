@@ -1,25 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
+import CustomTree from "./CustomTree";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const positions = {
+    name: 'Estoquista',
+    children: [
+        {
+            name: 'Repositor',
+            children: [
+                { name: 'Atendente Padaria',
+                    children: [
+                        { name: 'Açogueiro',
+                            children: [
+                                { name: 'Gerente'},
+                                { name: 'Manager'},
+                            ]}
+                    ],
+                },
+                { name: 'Atendente Peixaria',
+                    children: [
+                        { name: 'Caixa',
+                            children: [
+                                { name: 'Supervisor'},
+                            ]}
+                    ],
+                },
+            ],
+        },
+    ],
+};
+
+const App = () => {
+
+    return (
+        <div style={{height: '100vh', backgroundColor: "#004DA5", textAlign: "center"}}>
+            <CustomTree data={positions}/>
+        </div>
+    );
+};
 
 export default App;
