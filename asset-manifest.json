@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcbf691b.css",
-    "main.js": "/static/js/main.461d9c8d.js",
-    "static/js/787.f055211e.chunk.js": "/static/js/787.f055211e.chunk.js",
-    "static/media/lidl.png": "/static/media/lidl.46b04f9297511b8cfec9.png",
-    "index.html": "/index.html",
-    "main.fcbf691b.css.map": "/static/css/main.fcbf691b.css.map",
-    "main.461d9c8d.js.map": "/static/js/main.461d9c8d.js.map",
-    "787.f055211e.chunk.js.map": "/static/js/787.f055211e.chunk.js.map"
+    "main.css": "/react-tree/static/css/main.fcbf691b.css",
+    "main.js": "/react-tree/static/js/main.5f9e4c96.js",
+    "static/js/787.f055211e.chunk.js": "/react-tree/static/js/787.f055211e.chunk.js",
+    "static/media/lidl.png": "/react-tree/static/media/lidl.46b04f9297511b8cfec9.png",
+    "index.html": "/react-tree/index.html",
+    "main.fcbf691b.css.map": "/react-tree/static/css/main.fcbf691b.css.map",
+    "main.5f9e4c96.js.map": "/react-tree/static/js/main.5f9e4c96.js.map",
+    "787.f055211e.chunk.js.map": "/react-tree/static/js/787.f055211e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcbf691b.css",
-    "static/js/main.461d9c8d.js"
+    "static/js/main.5f9e4c96.js"
   ]
 }
