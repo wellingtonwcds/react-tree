@@ -1,41 +1,17 @@
 import React from 'react';
-import CustomTree from "./CustomTree";
-import './App.css';
-
-const positions = {
-    name: 'Estoquista',
-    children: [
-        {
-            name: 'Repositor',
-            children: [
-                { name: 'Atendente Padaria',
-                    children: [
-                        { name: 'Açogueiro',
-                            children: [
-                                { name: 'Gerente'},
-                                { name: 'Manager'},
-                            ]}
-                    ],
-                },
-                { name: 'Atendente Peixaria',
-                    children: [
-                        { name: 'Caixa',
-                            children: [
-                                { name: 'Supervisor'},
-                            ]}
-                    ],
-                },
-            ],
-        },
-    ],
-};
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Home';
+import CareerPath from './CareerPath';
 
 const App = () => {
-
     return (
-        <div style={{height: '100vh', backgroundColor: "#004DA5", textAlign: "center"}}>
-            <CustomTree data={positions}/>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="carrerPath" element={<CareerPath />} />
+                <Route path="home" element={<Home />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
 

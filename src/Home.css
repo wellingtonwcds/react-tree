@@ -1,0 +1,24 @@
+.container {
+    background-color: #004DA5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon_lidl_login {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.text_login {
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.combo_login{
+    width: 100px;
+}
